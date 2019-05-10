@@ -1,0 +1,25 @@
+trigger: none
+
+pr:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+resources:
+  repositories:
+  - repository: templates
+    type: github
+    name: swellaby/azure-pipelines-templates
+    endpoint: swellaby
+
+steps:
+- template: templates/yml/node/combo/npm-test-lint-validation-xunit.yml@templates
+  parameters:
+    publishTestResults:
+      taskDisplayName: 'Publish unit test results'
+      testResultsFormat: 'JUnit'
+      testResultsFiles: 'xunit.xml'
+      searchFolder: '$(Build.SourcesDirectory)/.testresults/unit'
+      testRunTitle: 'vscode-node-pack::Unit Tests::PR Validation Build $(Build.BuildId)'
+
