@@ -2,7 +2,7 @@
 	"name": "node-pack",
 	"displayName": "Node Extension Pack",
 	"description": "Extension Pack for Node",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"preview": true,
 	"private": true,
 	"publisher": "Swellaby",
@@ -15,16 +15,16 @@
 		"Extension Packs"
 	],
 	"extensionPack": [
-    "dbaeumer.vscode-eslint",
-    "christian-kohler.path-intellisense",
-    "christian-kohler.npm-intellisense",
-    "pflannery.vscode-versionlens",
+		"dbaeumer.vscode-eslint",
+		"christian-kohler.path-intellisense",
+		"christian-kohler.npm-intellisense",
+		"pflannery.vscode-versionlens",
 		"VisualStudioExptTeam.vscodeintellicode"
 	],
 	"keywords": [
-    "node",
-    "nodejs",
-    "javascript"
+		"node",
+		"nodejs",
+		"javascript"
 	],
 	"icon": "images/icon.png",
 	"galleryBanner": {
