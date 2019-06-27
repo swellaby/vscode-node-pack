@@ -54,5 +54,5 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish repo tarball'
   inputs:
-    PathtoPublish: '$(repoArchiveDirectory)'
+    PathToPublish: '$(repoArchiveDirectory)'
     ArtifactName: '$(repoArtifactName)'
