@@ -1,4 +1,4 @@
-# Rust Extension Pack
+# Node Extension Pack
 Minimalist VS Code Extension Pack for Node development. 
 
 [![Version Badge][version-badge]][ext-url]
