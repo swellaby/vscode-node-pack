@@ -31,7 +31,7 @@ MIT - see license details [here][license-url]
 [ci-badge]: https://img.shields.io/azure-devops/build/swellaby/opensource/79/master.svg?style=flat-square
 [ci-pipeline-url]: https://dev.azure.com/swellaby/OpenSource/_build?definitionId=79
 [tests-badge]: https://img.shields.io/azure-devops/tests/swellaby/opensource/79/master.svg?style=flat-square
-[installs-badge]: https://img.shields.io/vscode-marketplace/d/swellaby.node-pack.svg?style=flat-square
+[installs-badge]: https://img.shields.io/vscode-marketplace/i/swellaby.node-pack.svg?style=flat-square
 [version-badge]: https://img.shields.io/vscode-marketplace/v/swellaby.node-pack.svg?style=flat-square&label=marketplace
 [rating-badge]: https://img.shields.io/vscode-marketplace/r/swellaby.node-pack.svg?style=flat-square
 [ext-url]: https://marketplace.visualstudio.com/items?itemName=swellaby.node-pack
