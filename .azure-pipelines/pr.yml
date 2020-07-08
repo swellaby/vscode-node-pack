@@ -22,4 +22,3 @@ steps:
       testResultsFiles: 'xunit.xml'
       searchFolder: '$(Build.SourcesDirectory)/.testresults/unit'
       testRunTitle: 'vscode-node-pack::Unit Tests::PR Validation Build $(Build.BuildId)'
-

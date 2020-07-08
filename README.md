@@ -1,29 +1,32 @@
 # Node Extension Pack
-Minimalist VS Code Extension Pack for Node development. 
+
+Minimalist VS Code Extension Pack for Node development.
 
 [![Version Badge][version-badge]][ext-url]
 [![Installs Badge][installs-badge]][ext-url]
 [![Rating Badge][rating-badge]][ext-url]
-[![License Badge][license-badge]][license-url]  
+[![License Badge][license-badge]][license-url]
 
 [![CI Build Badge][ci-badge]][ci-pipeline-url]
 [![Test Results Badge][tests-badge]][ci-pipeline-url]
 
 ## Included Extensions
 
-* [eslint][eslint-ext-url]
-* [path Intellisense][path-intellisense-ext-url]
-* [npm Intellisense][npm-intellisense-ext-url]
-* [Version Lens][versionlens-ext-url]
-* [IntelliCode][intellicode-ext-url]
+- [eslint][eslint-ext-url]
+- [path Intellisense][path-intellisense-ext-url]
+- [npm Intellisense][npm-intellisense-ext-url]
+- [Version Lens][versionlens-ext-url]
+- [IntelliCode][intellicode-ext-url]
 
 Check out our [Common Extension Pack][common-ext-pack-url] that contains a couple other extensions that are useful for any type of project!
 
 ## Contributing
+
 Have an extension request, question, or need to report a bug? Open an issue [here][open-issue-url]!
 
 ## License
-MIT - see license details [here][license-url] 
+
+MIT - see license details [here][license-url]
 
 [license-url]: https://github.com/swellaby/vscode-node-pack/blob/master/LICENSE
 [contributing-doc-url]: https://github.com/swellaby/vscode-node-pack/blob/master/.github/CONTRIBUTING.md

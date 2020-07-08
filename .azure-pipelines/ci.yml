@@ -4,7 +4,7 @@ trigger:
 pr: none
 
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: 'Ubuntu-18.04'
 
 resources:
   repositories:
@@ -22,7 +22,6 @@ steps:
       testResultsFiles: 'xunit.xml'
       searchFolder: '$(Build.SourcesDirectory)/.testresults/unit'
       testRunTitle: 'vscode-node-pack::Unit Tests::CI Build $(Build.BuildId)'
-
 
 - script: |
     git checkout master
