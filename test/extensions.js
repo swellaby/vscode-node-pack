@@ -11,7 +11,9 @@ suite('Included Extensions Tests', () => {
     });
 
     test('Should include IntelliCode extension', () => {
-        assert.isTrue(extensions.includes('VisualStudioExptTeam.vscodeintellicode'));
+        assert.isTrue(
+            extensions.includes('VisualStudioExptTeam.vscodeintellicode')
+        );
     });
 
     test('Should include eslint extension', () => {
@@ -19,7 +21,9 @@ suite('Included Extensions Tests', () => {
     });
 
     test('Should include Path Intellisense extension', () => {
-        assert.isTrue(extensions.includes('christian-kohler.path-intellisense'));
+        assert.isTrue(
+            extensions.includes('christian-kohler.path-intellisense')
+        );
     });
 
     test('Should include npm Intellisense extension', () => {

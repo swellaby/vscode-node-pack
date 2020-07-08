@@ -25,7 +25,7 @@
     "json",
     "markdown",
     "plaintext",
-    "text",
+    "text"
   ],
   "cSpell.dictionaries": [
     "companies",
@@ -39,5 +39,5 @@
   ],
   "files.associations": {
     "**/.azure-pipelines/**": "azure-pipelines"
-  },
+  }
 }
