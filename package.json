@@ -2,7 +2,7 @@
   "name": "node-pack",
   "displayName": "Node Extension Pack",
   "description": "Extension Pack for Node",
-  "version": "0.1.25",
+  "version": "0.1.26",
   "preview": true,
   "private": true,
   "publisher": "Swellaby",
